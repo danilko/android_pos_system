@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+<EditText
+    android:id="@+id/main_listview_edittext_search"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/dialog_search_text" >
+
+    <requestFocus />
+</EditText>
+
+<ListView
+  android:id="@+android:id/main_listview_list"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" 
+  android:textFilterEnabled="true">
+</ListView>
+
+</LinearLayout>

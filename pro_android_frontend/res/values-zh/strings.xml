@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">得恩堂眼鏡</string>
+    <string name="user_name_label">請輸入使用者名稱:</string>
+    <string name="user_name_hint">使用者名稱:</string>
+    <string name="user_password_label">請輸入使用者密碼:</string>
+    <string name="server_ip_label">請輸入伺服IP:</string>
+    <string name="server_namespace_label">請輸入伺服Namespace:</string>
+    <string name="server_ip">http://10.0.2.2:8080/AndriodWebsite/Convert.asmx</string>
+    <string name="server_namespace">http://tempuri.org/</string>
+    <string name="product_id_label">產品代號</string>
+    <string name="product_id">001A</string>
+    <string name="product_name_label">產品名稱</string>
+    <string name="product_name">TEST PRODUCT</string>
+    <string name="product_description_label">產品描述</string>
+    <string name="product_quantity_label">訂購數量</string>
+    <string name="product_price_label">產品金額</string>
+    
+    <string name="product_subtotal_label">小計</string>
+    <string name="order_total_label">總金額</string>
+    
+    <string name="buyer_label">買方姓名:</string>
+    
+    <string name="search_label">請輸入尋找關鍵字: </string>
+
+    <string name="order_menu_clear_all">刪除所有貨物</string>
+    <string name="order_menu_confirm_order">送出訂單</string>
+    <string name="order_menu_back_to_products">回到產品選單</string>
+    
+    <string name="context_menu_changedisplay">轉換顯示</string>
+    <string name="context_menu_preference">修改設定</string>
+    <string name="context_menu_home">回到主頁</string>
+    <string name="context_menu_favorite">喜愛產品</string>
+    <string name="context_menu_investigate_completed_order">查閱完成訂單</string>
+    <string name="context_menu_investigate_current_order">查閱目前訂單</string>
+    <string name="dialog_search_title">產品查詢</string>
+    <string name="dialog_search_text">請輸入產品關鍵字:</string>
+    <string name="dialog_info_purchase_amount">請輸入購買數量: </string>
+    <string name="confirm">購買</string>
+    <string name="cancel">取消</string>
+    
+    <string name="dialog_cusomter_information_customer_name_text">請輸入客戶名稱:</string>
+                <string name="dialog_cusomter_information_customer_prefix_text">請選擇尊稱:</string>
+        <string name="dialog_cusomter_information_customer_prefix_prompt">請選擇尊稱</string>
+                    <string-array name="dialog_cusomter_information_customer_prefix">
+        <item>先生</item>
+        <item>小姐</item>
+    </string-array>
+    
+        <string-array name="main_news_entries">
+        <item>【2012/2/6】	 掃描得恩堂QRcode抽獎活動 - 1月得獎名單</item>
+        <item>【2012/1/1】	 加美彩拋．1盒特價250元,紅利會員獨享再送1盒！ </item>
+        <item>【2012/1/1】	 掃QRcode月月免費抽名牌眼鏡及每日型商品！</item>
+        </string-array>
+        
+        <string name="dialog_cusomter_information_customer_telephone_label">請輸入聯絡電話: </string>
+                <string name="dialog_cusomter_information_store_label">請選擇購買店家:</string>
+        <string-array name="dialog_cusomter_information_store">
+        <item>博愛路店 </item>
+        <item>羅斯福路店 </item>
+        <item>林森北路店</item>
+        <item>民生東路店</item>
+        <item>信義店</item>
+        </string-array>
+        
+        <string name="dialog_current_order_title">目前訂單</string>
+        <string name="dialog_completed_order_title">已送出訂單</string>
+        <string name="dialog_cusomter_information_title">顧客資料</string>
+                
+        <string-array name="CompletedOrder">
+        <item>收據代號: 0001 狀態: 已送出</item>
+        </string-array>
+        <string name = "no_order">目前沒有任何已送出訂單</string>
+        <string name="main_enter_product">按此進入產品選單</string>
+        <string name="main_news">最新消息</string>
+        
+        <string name="message_add_to_order">產品選項以更新到目前訂單</string>
+        
+        <string name="message_send_order">訂單已送出</string>
+        
+        <string name="message_no_entry_order">目前訂單中沒有任何貨物資料</string>
+        <string name="message_clear_all_complete">所有貨物資料已刪除</string>
+        
+        <string name="dialog_clear_all_warning">您確定要刪除所有在目前訂單中的貨物? (所有未送出貨物資料將無法回復)</string>
+        <string name="dialog_clear_all_confirm">確認, 刪除所有貨物資料</string>
+</resources>

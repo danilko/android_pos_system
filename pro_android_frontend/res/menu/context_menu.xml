@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/menu_item_home" android:title="@string/context_menu_home" android:titleCondensed="@string/context_menu_home" android:icon="@android:drawable/ic_input_get"></item>
+    <item android:id="@+id/menu_item_investigate_current_order" android:title="@string/context_menu_investigate_current_order" android:titleCondensed="@string/context_menu_investigate_current_order" android:icon="@android:drawable/ic_menu_edit"></item><item android:id="@+id/menu_item_investigate_completed_order" android:titleCondensed="@string/context_menu_investigate_completed_order" android:title="@string/context_menu_investigate_completed_order" android:icon="@android:drawable/ic_menu_agenda"></item><item android:id="@+id/menu_item_preference" android:title="@string/context_menu_preference" android:titleCondensed="@string/context_menu_preference" android:icon="@android:drawable/ic_menu_manage"></item>
+    <item android:id="@+id/menu_item_favorite" android:icon="@android:drawable/ic_menu_save" android:titleCondensed="@string/context_menu_favorite" android:title="@string/context_menu_favorite"></item>
+    <item android:id="@+id/menu_item_changedisplay" android:icon="@android:drawable/ic_menu_gallery" android:title="@string/context_menu_changedisplay" android:titleCondensed="@string/context_menu_changedisplay"></item>
+    
+    
+
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_item_confirm_order" android:icon="@android:drawable/ic_menu_agenda" android:title="@string/order_menu_confirm_order"></item>
+    <item android:id="@+id/menu_item_clear_all" android:icon="@android:drawable/ic_menu_delete" android:title="@string/order_menu_clear_all"></item>
+    <item android:id="@+id/menu_item_back_to_product" android:icon="@android:drawable/ic_menu_gallery" android:title="@string/order_menu_back_to_products"></item>
+    
+
+</menu>

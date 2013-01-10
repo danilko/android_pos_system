@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello, this is a first Andriod System Test</string>
+    <string name="app_name">AndriodPOS</string>
+    <string name="user_name_label">Please enter your user name:</string>
+    <string name="user_name_hint">User Name</string>
+    <string name="user_password_label">Please enter your password:</string>
+    <string name="server_ip_label">Please enter the IP Address for the Server:</string>
+    <string name="server_namespace_label">Please enter the namespace for the Server:</string>
+    <string name="server_ip">http://10.0.2.2:8080/AndriodWebsite/Convert.asmx</string>
+    <string name="server_namespace">http://tempuri.org/</string>
+    <string name="product_id_label">Product ID</string>
+    <string name="product_name_label">Product Name</string>
+    <string name="product_description_label">Product Description</string>
+    <string name="product_price_label">Product Price</string>
+    <string name="product_quantity_label">Purchase Quantity</string>
+        <string name="product_subtotal_label">Subtotal</string>
+            <string name="order_total_label">Order Total</string>
+    
+    <string name="product_buyer_label">The name of the buyer:</string>
+    
+    <string name="search_label">Please enter the search parameter: </string>
+    
+    <string name="order_menu_clear_all">Clear All</string>
+    <string name="order_menu_confirm_order">Confirm Order</string>
+    <string name="order_menu_back_to_products">Back To Products</string>
+    
+    <string name="context_menu_favorite">Favorite Product</string>
+    <string name="context_menu_changedisplay">Change Display</string>
+    <string name="context_menu_preference">Preference</string>
+    <string name="context_menu_home">Back To Home Page</string>
+    <string name="context_menu_investigate_completed_order">Investigate Completed Order</string>
+    <string name="context_menu_investigate_current_order">Investigate Current Order</string>
+    <string name="dialog_search_title">SEARCH FROM MENU</string>
+        <string name="confirm">Confirm </string>
+        <string name="cancel">Cancel</string>
+        <string name="dialog_cusomter_information_customer_name_text">Please enter customer name:</string>
+                <string name="dialog_cusomter_information_customer_prefix_text">Please select a prefix:</string>
+        <string name="dialog_cusomter_information_customer_prefix_prompt">Please select a prefix</string>
+                    <string-array name="dialog_cusomter_information_customer_prefix">
+        <item>Mr.</item>
+        <item>Ms.</item>
+    </string-array>
+        <string name="dialog_cusomter_information_customer_telephone_label">Please enter customer contact phone number: </string>
+                <string name="dialog_cusomter_information_store_label">Please select the purchase store</string>
+        <string-array name="dialog_cusomter_information_store">
+        <item>Store 1 </item>
+        <item>Store 2</item>
+        <item>Store 3</item>
+        
+        
+        </string-array>
+        
+                <string-array name="main_news_entries">
+        <item>News 1 </item>
+        <item>News 2</item>
+        <item>News 3</item>
+        </string-array>
+        
+                        <string name="dialog_current_order_title">Current Order</string>
+                <string name="dialog_completed_order_title">Completed Order</string>
+                 <string name="dialog_cusomter_information_title">Customer Information</string>
+                 
+                         <string-array name="CompletedOrder">
+                             
+                             
+        <item>Invoice 0001 Status: Already Send</item>
+        
+        </string-array>
+        <string name = "no_order">There is no completed order</string>
+        <style name="theme_white" parent="@android:style/Theme.Light">
+        </style>
+                <style name="theme_dialog_white" parent="@android:style/Theme.Dialog">
+            <item name="android:textColor">?android:color/primary_text_light</item>
+            
+        </style>
+        
+        <string name="main_enter_product">Press here to enter to product menu</string>
+        <string name="main_news">Latest News</string>
+        
+        <string name="message_add_to_order">Change is added to the current order</string>
+        <string name="message_send_order">Current order is sent</string>
+        
+         <string name="message_no_entry_order">Current order does not have any entries</string>
+        <string name="message_clear_all_complete">All entries are cleared</string>
+        
+        <string name="dialog_clear_all_warning">Do you sure you want to clear all entries? (This action cannot be undone)</string>
+        <string name="dialog_clear_all_confirm">Confirm, Clear All Entries</string>
+</resources>
