@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="hello">Hello, this is a first Andriod System Test</string>
-    <string name="app_name">AndriodPOS</string>
+    <string name="app_name">Andriod POS</string>
     <string name="user_name_label">Please enter your user name:</string>
     <string name="user_name_hint">User Name</string>
     <string name="user_password_label">Please enter your password:</string>
